@@ -1,0 +1,29 @@
+<nav class="nav-primary">
+    <ul>
+    	<li>
+    		<a href="{{ site.baseurl }}/">
+    	    Home
+    	    </a>
+    	</li>
+      <li>
+    		<a {% if page.url == "/Location.html" %} class="active"{% endif %} href="{{ site.baseurl }}/Location.html">
+    	    Location
+    	    </a>
+    	</li>
+      <li>
+    		<a {% if page.url == "/Program.html" %} class="active"{% endif %} href="{{ site.baseurl }}/Program.html">
+    	    Program
+    	    </a>
+    	</li>
+      <li>
+    		<a {% if page.url == "/Registration.html" %} class="active"{% endif %} href="{{ site.baseurl }}/Registration.html">
+    	    Registration
+    	    </a>
+    	</li>
+      <li>
+    		<a {% if page.url == "/FAQs.html" %} class="active"{% endif %} href="{{ site.baseurl }}/FAQs.html">
+    	    FAQs
+    	    </a>
+    	</li>
+    </ul>
+</nav>
