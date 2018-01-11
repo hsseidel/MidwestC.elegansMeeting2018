@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Program
+title: Program - Midwest C. elegans Meeting 2018
 ---
 
 ## Program

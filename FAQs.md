@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: FAQs
+title: FAQs - Midwest C. elegans Meeting 2018
 ---
 
 ## I've never heard of Eastern Michigan University. Tell me more about it.
@@ -29,12 +29,9 @@ We sincerely wish we could offer the meeting for free. Unfortunately, EMU does n
 Ypsilanti is pronounced *ip-si-LAN-tee*. Locals call it Ypsi (*IP-see*) for short.
 
 ## Will I see any nationally ranked, historic landmarks at the meeting?
-Yes! The meeting is located across the street from the [Ypsilanti Water Tower](https://en.wikipedia.org/wiki/Ypsilanti_Water_Tower), a historic landmark that won [this award](https://en.wikipedia.org/wiki/Most_Phallic_Building_contest).
+
+Yes! The meeting is located across the street from the <a href="https://en.wikipedia.org/wiki/Ypsilanti_Water_Tower" target="_blank">Ypsilanti_Water_Tower</a>, a historic landmark that won
+<a href="https://en.wikipedia.org/wiki/Most_Phallic_Building_contest" target="_blank">this award</a>.
 
 ## I'd to stay in Ypsilanti for dinner. Where should I eat?
-Locals recommend [Sidetrack Bar & Grill](http://www.sidetrackbarandgrill.com/), especially for its sweet potato fries. Other recommendations are [The Wurst Bar](http://wurstbarypsi.com/) and [ABC Microbrewery](http://www.arborbrewing.com/).
-
-
-
-
-
+Locals recommend <a href="http://www.sidetrackbarandgrill.com/" target="_blank">Sidetrack Bar & Grill</a>, especially for its sweet potato fries. Other recommendations are <a href="http://wurstbarypsi.com/" target="_blank">The Wurst Bar</a> and <a href="http://www.arborbrewing.com/" target="_blank">ABC Microbrewery</a>.
