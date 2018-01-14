@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: MCeM2018
 title: Midwest C. elegans Meeting 2018
 home: true
 ---

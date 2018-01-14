@@ -1,6 +1,6 @@
 ---
-layout: recipe
-title: FAQs - Midwest C. elegans Meeting 2018
+layout: MCeM2018
+title: FAQs
 ---
 
 ## I've never heard of Eastern Michigan University. Tell me more about it.
