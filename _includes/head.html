@@ -3,9 +3,12 @@
 
     <head>
         <meta charset="utf-8">
+
+        <!-- Reminder, remove this meta when ready. -->
         <meta name="robots" content="noindex, nofollow"><!-- Since this is a demo site, I don't want search engines to index it. -->
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ page.title }} - Midwest C. elegans Meeting 2018</title>
+        <title>{% if page.home <> true %}{{ page.title }} · {% endif %}Midwest C. elegans Meeting 2018</title>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" >
     </head>
 
