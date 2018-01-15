@@ -1,72 +1,65 @@
+/* There seems to be lots of vestigial and undeeded stuff here. aks 1/14/18  */
 
+body {
+	marging:0
+}
 
+header {
+	background-color: #e2e2e2; /* light grey */
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+/*
 nav {
 	display: block;
     }
+*/
 
+/*
 nav {
 	padding: 2em 4% 3em;
     }
+*/
 
-nav ul {
-	margin: 0;
-	list-style: none;
-    }
 
 .nav-primary {
 	float: left;
+	float: right;
 	margin: 0;
 	padding: 0;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	position: relative;
 	display: block;
 	width: 100%;
-	margin: 0 0 1.5em 0;
+	margin: 1em 0 1em 0;
 	background-color: #fff;
 	overflow: hidden;
-    }
+  }
 
-    @media (min-width: 40em) {
-    .nav-primary {
-        width: 30%;
-        }
-    }
-
-.nav-primary li {
-	position: relative;
+.nav-primary ul {
 	margin: 0;
-    }
+	padding: 0;
+	list-style: none;
+  }
 
-
-.nav-primary li h2 {
-	margin-right: 85px;
-	font-size: 2.5em;
-	margin-top: 0.5em;
+@media (min-width: 40em) {
+.nav-primary {
+    width: 30%;
     }
-
-.nav-primary li .img-wrapper {
-	left: 0;
-    }
-
-.nav-primary .img-wrapper img {
-	width: 50px;
-	height: 50px;
-	background-color: #eee;
-	opacity: 0.5;
-    }
-
-.nav-primary .img-wrapper:before {
-	border: none;
-    }
+}
 
 .nav-primary li a {
 	display: block;
 	border-bottom: none;
 	color: #000;
-	padding: 8px 1em 6px 65px;
+	text-align: center;
+	padding: 6px 6px 6px 6px;
 	background-color: #fff;
     }
-
 
 .nav-primary li a:hover,
 .nav-primary li a:focus,
@@ -75,8 +68,8 @@ nav ul {
 .nav-primary .active:hover,
 .nav-primary .active:focus,
 .nav-primary .active:active {
-	background-color: #084594;
-	color: #fff;
+		background-color: #084594;
+		color: #fff;
     }
 
 .nav-primary li a:active,
@@ -86,12 +79,13 @@ nav ul {
     	color: #fff;
     }
 
-.nav-primary a:hover .img-wrapper img,
-.nav-primary a:focus .img-wrapper img,
-.nav-primary a:active .img-wrapper img,
-.nav-primary .active .img-wrapper img,
-.nav-primary .active:hover .img-wrapper img,
-.nav-primary .active:focus .img-wrapper img,
-.nav-primary .active:active .img-wrapper img {
+/* Dims the nav text a bit when hovered over.*/
+.nav-primary a:hover,
+.nav-primary a:focus
+.nav-primary a:active,
+.nav-primary .active,
+.nav-primary .active:hover,
+.nav-primary .active:focus,
+.nav-primary .active:active {
     opacity: 1;
 }

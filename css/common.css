@@ -5,30 +5,30 @@
     font-style: normal;
     }
 
-/* Paul Lloyd's reset stylesheet: http://barebones.paulrobertlloyd.com/_css/reset.css */
+/* Perhaps once based upon Paul Lloyd's reset stylesheet: http://barebones.paulrobertlloyd.com/_css/reset.css */
 
 @-ms-viewport {
 	width: device-width;
-    }
+  }
 
 @viewport {
 	width: device-width;
-    }
+  }
 
 section, nav, article, aside, hgroup, header, footer, main,
 img, figure, figcaption, details, menu {
 	display: block;
-    }
+  }
 
 audio, video, canvas {
 	display: inline-block;
-    }
+  }
 
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-    }
+  }
 
 body {
 	font-family: sans-serif;
@@ -38,27 +38,32 @@ body {
 	text-rendering: optimizeLegibility;
 	margin: 0 auto;
 	padding: 0;
-    }
-
+  }
 
 h1 {
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 1;
-	margin: 1.3334em 0 0.3334em;
+	margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
    -webkit-font-smoothing: antialiased;
-    }
+  }
 
 h2,
 article > h1,
 section > h1,
 nav > h1 {
 	font-weight: 700;
-	font-size: 2em;
+	font-size: 1.6em;
 	line-height: 1;
-	margin: 1.3334em 0 0.3334em;
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
    -webkit-font-smoothing: antialiased;
-    }
+  }
 
 p, pre, blockquote, ul, ol, dl, figure, figcaption, table, fieldset, details {
 	font-size: 1em; /* 16px */
@@ -87,7 +92,7 @@ dt {
     }
 
 dd, li {
-	margin-left: 1.5em; /* 24px */
+	margin-left: 1em; /* 16px */
 	}
 
 dd > *, li > * {
@@ -109,7 +114,7 @@ blockquote + figcaption: before {
 a {
 	color: #b3002d;
 	text-decoration: none;
-	border-bottom: 1px solid rgba(179, 0, 45, 0.2);
+	/*border-bottom: 1px solid rgba(179, 0, 45, 0.2); why was this? */
 	}
 
 a:focus {
@@ -234,9 +239,11 @@ img {
 	    }
 }
 
-
 main {
-	padding: 2em 4% 2em;
+	padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
 	float: left;
 	width: 100%;
 	margin-bottom: 0;
@@ -250,20 +257,40 @@ main {
         }
     }
 
-.container {
-    width: 100%;
-    float: left;
+.banner {
+    position: relative;
+    text-align: center;
+    /* we don't know yet how tall the banner will be */
+    max-height: 20vh; /* Limit to 20% view height*/
+    overflow: hidden; /* But chop off any part that extends lower than banner-content */
     }
+
+.banner img {
+    display: inline-block;
+    /* There is more that can be done yet regarding
+    how the image resizes etc. */
+    max-width; 200%;
+    margin: 0;
+}
+
+.banner-content {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 6px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
 
 .global-footer {
 	margin-top: 1em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
 	background-color: #ddd;
     clear: both;
     text-align: center;
     }
-
 
 .title-site {
     margin: 1.5em auto 1em;
@@ -272,11 +299,6 @@ main {
     display: block;
     position: relative;
     }
-
-.header-image {
-  margin: 0 auto;
-
-}
 
 .attribution {
     margin-top: 1.5em;
