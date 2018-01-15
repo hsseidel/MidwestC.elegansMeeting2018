@@ -244,18 +244,16 @@ main {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-	float: left;
-	width: 100%;
 	margin-bottom: 0;
-    }
+  }
 
-    @media (min-width:40em) {
-    main {
-	    float: right;
-	    width: 70%;
-	    clear: none;
-        }
-    }
+@media screen and (min-width: 40em) {
+main {
+  float: right;
+  width: 78%;
+  clear: none;
+  }
+}
 
 .banner {
     position: relative;
