@@ -1,4 +1,4 @@
-/* There seems to be lots of vestigial and undeeded stuff here. aks 1/14/18  */
+/* There were lots of vestigial and undeeded stuff here. aks 1/14/18  */
 
 body {
 	marging:0
@@ -12,19 +12,6 @@ h1 {
 	margin: 0;
 	text-align: center;
 }
-
-/*
-nav {
-	display: block;
-    }
-*/
-
-/*
-nav {
-	padding: 2em 4% 3em;
-    }
-*/
-
 
 .nav-primary {
 	float: left;
