@@ -1,0 +1,75 @@
+/* There were lots of vestigial and undeeded stuff here. aks 1/14/18  */
+
+body {
+	marging:0
+}
+
+header {
+	background-color: #e2e2e2; /* light grey */
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+}
+
+.nav-primary {
+	float: left;
+	padding: 0;
+	font-size: 1.25em;
+	position: relative;
+	display: block;
+	margin: 1em 0 1em 0;
+	background-color: #fff;
+	overflow: hidden;
+  }
+
+.nav-primary ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
+@media (min-width: 20em) {
+.nav-primary {
+    width: 22%;
+    }
+}
+
+.nav-primary li a {
+	display: block;
+	border-bottom: none;
+	color: #000;
+	text-align: center;
+	padding: 6px 6px 6px 6px;
+	background-color: #fff;
+    }
+
+.nav-primary li a:hover,
+.nav-primary li a:focus,
+.nav-primary li a:active,
+.nav-primary .active,
+.nav-primary .active:hover,
+.nav-primary .active:focus,
+.nav-primary .active:active {
+		background-color: #084594;
+		color: #fff;
+    }
+
+.nav-primary li a:active,
+.nav-primary .active,
+.nav-primary .active:active {
+    	background-color: #4292c6;
+    	color: #fff;
+    }
+
+/* Dims the nav text a bit when hovered over.*/
+.nav-primary a:hover,
+.nav-primary a:focus
+.nav-primary a:active,
+.nav-primary .active,
+.nav-primary .active:hover,
+.nav-primary .active:focus,
+.nav-primary .active:active {
+    opacity: 1;
+}
